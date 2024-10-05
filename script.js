@@ -5,6 +5,7 @@ count.innerHTML = cnt;
 let btn = document.getElementById('incrementBtn')
 
 function Increment() {
+	alert(cnt)
 	cnt++;
 	count.innerHTML = cnt;
 	alert(cnt);
